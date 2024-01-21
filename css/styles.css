@@ -1,5 +1,5 @@
 .body{
-    font-family:"Roboto", sans-serif;
+    font-family:Roboto, sans-serif;
     color:#434455;
     background-color:#FFFFFF;
 }
@@ -14,7 +14,7 @@
 }
 .header-logo {
     color:#4d5ae5;
-    font-family:"Raleway", sans-serif;
+    font-family:Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -58,13 +58,14 @@ header-list-item focus{color: #404bbf;}
         .button {background-color: #2E2F42;
             color: #FFF
         }
-        .main-title{;
+        .main-title{
             text-align: center;
             font-size: 56px;
             font-style: normal;
             line-height: 1.07; /* 107.143% */
             letter-spacing: 0.02em;}
-        .main-button {background-color: #4D5AE5;
+        .main-button {
+            background-color: #4D5AE5;
             color: #ffffff;
             font-family: "Roboto", sans-serif;
             cursor: pointer;
@@ -77,7 +78,8 @@ header-list-item focus{color: #404bbf;}
         .main-button hover{ background-color: #404BBF}
         .main-button :focus{background-color: #404BBF}
         /*=========Advantages===================*/
-        .advantages-title{color: #2E2F42;
+        .advantages-title{
+            color: #2E2F42;
             font-size: 20px;
             font-style: normal;
             font-weight: 500;
@@ -98,8 +100,9 @@ header-list-item focus{color: #404bbf;}
 /*================Team=========================*/
 .team {background: #F4F4FD;
 }
-.team-title{color: #2E2F42;
-    text-transform: capitalize
+.team-title{
+    color: #2E2F42;
+    text-transform: capitalize;
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -109,7 +112,8 @@ header-list-item focus{color: #404bbf;}
 }
 .team-list-item {background-color: #FFFFFF
 }
-.team-list-item-text {color: #434455;
+.team-list-item-text {
+    color: #434455;
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -141,11 +145,6 @@ header-list-item focus{color: #404bbf;}
     font-weight: 700;
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
-    text-transform: uppercase;}
-    .footer-text-logo span{color:#4D5AE5}
-.footer-text {
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.02em;
-}
+    text-transform: uppercase;
+`}
+    
