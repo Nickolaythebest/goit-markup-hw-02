@@ -38,9 +38,11 @@ body{
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;}
+    .header-list-link:hover,
+.header-list-link:focus{color:#404bbf;}
 address{font-style: normal} 
 .header-list-item:hover,
-.header-list-item:focus{color: #404bbf;}
+.header-list-item:focus{color:#404bbf;}
 .header-address{font-style:normal;}
 .header-address-list{
     font-style:normal;
@@ -145,9 +147,11 @@ address{font-style: normal}
 .footer{background: #2E2F42;
     color: #F4F4FD;
 }
+.footer-logo-part{color:#f4f4fd;}
 .footer-text{
+    font-size:16px;
     line-height: 1.5;
     color: #F4F4FD;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
     
