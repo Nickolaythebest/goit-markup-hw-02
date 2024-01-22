@@ -12,7 +12,7 @@ body{
 }
 .header-navigation {
 }
-.header-logo {
+.header-logo{
     color:#4d5ae5;
     font-family:Raleway, sans-serif;
     font-size: 18px;
@@ -22,8 +22,8 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.header-logo span {color:#2e2f42;}
-.header-list {color:#2E2F42;
+.header-logo span{color:#2e2f42;}
+.header-list{color:#2E2F42;
     list-style-type: none;
     font-size: 16px;
     font-style: normal;
@@ -31,11 +31,9 @@ body{
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
-.header-list-item hover{ color: #404bbf;
-}
-header-list-item focus{color: #404bbf;}
-.header-address {font-style:normal;
-}
+.header-list-item:hover,
+.header-list-item:focus{color: #404bbf;}
+.header-address{font-style:normal;}
 .header-address-list{
     font-style:normal;
     color:#434455;
@@ -51,32 +49,31 @@ header-list-item focus{color: #404bbf;}
         font-weight: 400;
         line-height: 1.5; /* 150% */
         letter-spacing: 0.02em;}
-    .header-address-list-item hover{color:#404bbf;}
-    .header-address-list-item :focus{color:#404bbf}
+    .header-address-list-item:hover,
+    .header-address-list-item:focus{color:#404bbf}
 
         /*=========================================================*/
-        .button {background-color: #2E2F42;
-            color: #FFF
+        .button{background-color:#2E2F42;
+            color:#FFF
         }
         .main-title{
-            text-align: center;
-            font-size: 56px;
-            font-style: normal;
-            line-height: 1.07; /* 107.143% */
-            letter-spacing: 0.02em;}
+            text-align:center;
+            font-size:56px;
+            line-height:1.07; /* 107.143% */
+            letter-spacing:0.02em;}
         .main-button {
-            background-color: #4D5AE5;
-            color: #ffffff;
-            font-family: "Roboto", sans-serif;
-            cursor: pointer;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 1.5; /* 150% */
-            letter-spacing: 0.04em;
+            background-color:#4D5AE5;
+            color:#ffffff;
+            font-family:"Roboto", sans-serif;
+            cursor:pointer;
+            font-size:16px;
+            font-style:normal;
+            font-weight:500;
+            line-height:1.5; /* 150% */
+            letter-spacing:0.04em;
         }
-        .main-button hover{ background-color: #404BBF}
-        .main-button :focus{background-color: #404BBF}
+        .main-button:hover,
+        .main-button:focus{background-color: #404BBF}
         /*=========Advantages===================*/
         .advantages-title{
             color: #2E2F42;
@@ -91,23 +88,23 @@ header-list-item focus{color: #404bbf;}
         }
         .advantages-list-item {
         }
-        .advantages-list-item-text {color: #434455;
+        .advantages-list-item-text{color:#434455;
             font-size: 16px;
             font-style: normal;
             line-height: 1.5; /* 150% */
             letter-spacing: 0.02em;
         } 
 /*================Team=========================*/
-.team {background: #F4F4FD;
+.team{background:#F4F4FD;
 }
 .team-title{
-    color: #2E2F42;
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 36px;
-    font-style: normal;
-    line-height: 1.11; /* 111.111% */
-    letter-spacing: 0.02em;}
+    color:#2E2F42;
+    text-transform:capitalize;
+    text-align:center;
+    font-size:36px;
+    font-style:normal;
+    line-height:1.11; /* 111.111% */
+    letter-spacing:0.02em;}
 .team-list {
 }
 .team-list-item {background-color: #FFFFFF
@@ -118,7 +115,7 @@ header-list-item focus{color: #404bbf;}
     font-size: 16px;
     font-style: normal;
     line-height: 1.5; /* 150% */
-    letter-spacing: 0.02em;
+    letter-spacing:0.02em;
 }
 /*====================Portfolio==============*/
 .portfolio {background: #FFF;
@@ -130,21 +127,20 @@ header-list-item focus{color: #404bbf;}
 .portfolio-link {
 }
 .portfolio-list-item-text {color: #434455;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5; /* 150% */
+    font-size:16px;
+    line-height:1.5; /* 150% */
     letter-spacing: 0.02em;
 }
 /*=============Footer================*/
-.footer {background: #2E2F42;
+.footer{background: #2E2F42;
     color: #F4F4FD;
 }
-.footer-text-logo {font-family: Raleway;
+.footer-text-logo{font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
-`}
+}
     
